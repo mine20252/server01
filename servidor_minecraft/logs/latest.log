@@ -1,0 +1,339 @@
+[05Dec2025 17:13:45.129] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05Dec2025 17:13:45.133] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[05Dec2025 17:13:45.814] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Dec2025 17:13:45.867] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Dec2025 17:13:46.151] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2025 17:13:46.153] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2025 17:13:46.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2025 17:13:46.156] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2025 17:13:46.301] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[05Dec2025 17:13:48.267] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Dec2025 17:13:48.312] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[05Dec2025 17:13:48.347] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Dec2025 17:13:48.465] [main/INFO] [Puzzles Lib/]: Loading 23 mods:
+	- balm 7.3.37
+		\-- kuma_api 20.1.12
+	- born_in_chaos_v1 1.7.3
+	- dungeoncrawl 2.3.15
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_arise_seven_seas 1.0.2
+	- enchantinginfuser 8.0.3
+	- forge 47.3.7
+	- geckolib 4.8.2
+	- incendium 5.3.5
+	- jei 15.20.0.127
+	- minecraft 1.20.1
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mutantmonsters 8.0.8
+	- puzzleslib 8.1.33
+		|-- mixinextras 0.4.1
+		\-- puzzlesaccessapi 20.1.1
+	- sophisticatedbackpacks 3.24.12.1411
+	- sophisticatedcore 1.2.107.1240
+	- takesapillage 1.0.3
+	- trashslot 15.1.2
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+[05Dec2025 17:13:48.470] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Dec2025 17:13:48.657] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05Dec2025 17:13:54.591] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[05Dec2025 17:13:54.789] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[05Dec2025 17:13:54.906] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[05Dec2025 17:13:54.907] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[05Dec2025 17:13:54.908] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[05Dec2025 17:13:54.974] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[05Dec2025 17:13:55.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[05Dec2025 17:13:55.931] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server01/servidor_minecraft/config/mutantmonsters-common.toml is not correct. Correcting
+[05Dec2025 17:13:55.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mutant_creeper_spawn_weight was corrected from null to its default, 0.05. 
+[05Dec2025 17:13:55.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mutant_enderman_spawn_weight was corrected from null to its default, 0.05. 
+[05Dec2025 17:13:55.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mutant_skeleton_spawn_weight was corrected from null to its default, 0.05. 
+[05Dec2025 17:13:55.934] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mutant_zombie_spawn_weight was corrected from null to its default, 0.05. 
+[05Dec2025 17:13:55.935] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[05Dec2025 17:13:55.935] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[05Dec2025 17:13:55.960] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[05Dec2025 17:13:55.970] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server01/servidor_minecraft/config/dungeon_crawl.toml is not correct. Correcting
+[05Dec2025 17:13:55.972] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[05Dec2025 17:13:55.974] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous Settings.enable_tools was corrected from null to its default, false. 
+[05Dec2025 17:13:55.979] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous Settings.extended_debug was corrected from null to its default, true. 
+[05Dec2025 17:13:55.980] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[05Dec2025 17:13:55.980] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation.solid was corrected from null to its default, false. 
+[05Dec2025 17:13:55.980] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation.tick_falling_blocks was corrected from null to its default, true. 
+[05Dec2025 17:13:55.986] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[05Dec2025 17:13:55.986] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.secret_rooms was corrected from null to its default, true. 
+[05Dec2025 17:13:55.987] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.fixed_generation_height was corrected from null to its default, false. 
+[05Dec2025 17:13:55.989] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.overwrite_entity_loot_tables was corrected from null to its default, true. 
+[05Dec2025 17:13:55.990] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.no_nether_blocks was corrected from null to its default, false. 
+[05Dec2025 17:13:55.990] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.spawner_activation_range was corrected from null to its default, 12. 
+[05Dec2025 17:13:55.991] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.spawner_entities was corrected from null to its default, 6. 
+[05Dec2025 17:13:55.992] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.custom_spawners was corrected from null to its default, true. 
+[05Dec2025 17:13:55.992] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dungeon Settings.natural_despawn was corrected from null to its default, true. 
+[05Dec2025 17:13:56.038] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[05Dec2025 17:13:56.039] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[05Dec2025 17:13:56.041] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[05Dec2025 17:13:56.041] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[05Dec2025 17:13:56.220] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[05Dec2025 17:13:56.543] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.8 Target: null
+[05Dec2025 17:13:56.543] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[05Dec2025 17:13:56.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[05Dec2025 17:13:56.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[05Dec2025 17:13:56.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[05Dec2025 17:13:56.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[05Dec2025 17:13:56.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[05Dec2025 17:13:56.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Dec2025 17:13:56.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[05Dec2025 17:13:56.875] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[05Dec2025 17:13:56.889] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[05Dec2025 17:13:58.148] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Dec2025 17:13:58.290] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_skull Expected: 1003 Got: 1122
+[05Dec2025 17:13:58.291] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_wall_skull Expected: 1004 Got: 1123
+[05Dec2025 17:13:58.292] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:creeper_minion_spawn_egg Expected: 1255 Got: 1672
+[05Dec2025 17:13:58.292] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_creeper_spawn_egg Expected: 1256 Got: 1673
+[05Dec2025 17:13:58.292] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_enderman_spawn_egg Expected: 1257 Got: 1674
+[05Dec2025 17:13:58.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_spawn_egg Expected: 1258 Got: 1675
+[05Dec2025 17:13:58.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_snow_golem_spawn_egg Expected: 1259 Got: 1676
+[05Dec2025 17:13:58.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_zombie_spawn_egg Expected: 1260 Got: 1677
+[05Dec2025 17:13:58.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:spider_pig_spawn_egg Expected: 1261 Got: 1678
+[05Dec2025 17:13:58.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:creeper_minion_tracker Expected: 1262 Got: 1679
+[05Dec2025 17:13:58.294] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:creeper_shard Expected: 1263 Got: 1680
+[05Dec2025 17:13:58.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_arms Expected: 1264 Got: 1681
+[05Dec2025 17:13:58.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_limb Expected: 1265 Got: 1682
+[05Dec2025 17:13:58.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_pelvis Expected: 1266 Got: 1683
+[05Dec2025 17:13:58.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_rib Expected: 1267 Got: 1684
+[05Dec2025 17:13:58.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_rib_cage Expected: 1268 Got: 1685
+[05Dec2025 17:13:58.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_shoulder_pad Expected: 1269 Got: 1686
+[05Dec2025 17:13:58.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_chestplate Expected: 1270 Got: 1687
+[05Dec2025 17:13:58.296] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_leggings Expected: 1271 Got: 1688
+[05Dec2025 17:13:58.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_boots Expected: 1272 Got: 1689
+[05Dec2025 17:13:58.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:endersoul_hand Expected: 1273 Got: 1690
+[05Dec2025 17:13:58.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:hulk_hammer Expected: 1274 Got: 1691
+[05Dec2025 17:13:58.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton_skull Expected: 1275 Got: 1692
+[05Dec2025 17:13:58.297] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: mutantmonsters:chemical_x Expected: 0 Got: 99
+[05Dec2025 17:13:58.298] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.creeper_minion.ambient Expected: 1474 Got: 1623
+[05Dec2025 17:13:58.298] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.creeper_minion.death Expected: 1475 Got: 1624
+[05Dec2025 17:13:58.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.creeper_minion.hurt Expected: 1476 Got: 1625
+[05Dec2025 17:13:58.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.creeper_minion.primed Expected: 1477 Got: 1626
+[05Dec2025 17:13:58.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.creeper_minion_egg.hatch Expected: 1478 Got: 1627
+[05Dec2025 17:13:58.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.endersoul_clone.teleport Expected: 1479 Got: 1628
+[05Dec2025 17:13:58.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.endersoul_clone.death Expected: 1480 Got: 1629
+[05Dec2025 17:13:58.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.endersoul_fragment.explode Expected: 1481 Got: 1630
+[05Dec2025 17:13:58.300] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_creeper.ambient Expected: 1482 Got: 1631
+[05Dec2025 17:13:58.300] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_creeper.charge Expected: 1483 Got: 1632
+[05Dec2025 17:13:58.300] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_creeper.death Expected: 1484 Got: 1633
+[05Dec2025 17:13:58.300] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_creeper.hurt Expected: 1485 Got: 1634
+[05Dec2025 17:13:58.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_creeper.primed Expected: 1486 Got: 1635
+[05Dec2025 17:13:58.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.ambient Expected: 1487 Got: 1636
+[05Dec2025 17:13:58.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.death Expected: 1488 Got: 1637
+[05Dec2025 17:13:58.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.hurt Expected: 1489 Got: 1638
+[05Dec2025 17:13:58.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.morph Expected: 1490 Got: 1639
+[05Dec2025 17:13:58.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.scream Expected: 1491 Got: 1640
+[05Dec2025 17:13:58.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.stare Expected: 1492 Got: 1641
+[05Dec2025 17:13:58.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_enderman.teleport Expected: 1493 Got: 1642
+[05Dec2025 17:13:58.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_skeleton.ambient Expected: 1494 Got: 1643
+[05Dec2025 17:13:58.303] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_skeleton.death Expected: 1495 Got: 1644
+[05Dec2025 17:13:58.303] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_skeleton.hurt Expected: 1496 Got: 1645
+[05Dec2025 17:13:58.303] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_skeleton.step Expected: 1497 Got: 1646
+[05Dec2025 17:13:58.303] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_snow_golem.death Expected: 1498 Got: 1647
+[05Dec2025 17:13:58.303] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_snow_golem.hurt Expected: 1499 Got: 1648
+[05Dec2025 17:13:58.304] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_zombie.ambient Expected: 1500 Got: 1649
+[05Dec2025 17:13:58.304] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_zombie.attack Expected: 1501 Got: 1650
+[05Dec2025 17:13:58.304] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_zombie.death Expected: 1502 Got: 1651
+[05Dec2025 17:13:58.304] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_zombie.grunt Expected: 1503 Got: 1652
+[05Dec2025 17:13:58.304] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_zombie.hurt Expected: 1504 Got: 1653
+[05Dec2025 17:13:58.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.mutant_zombie.roar Expected: 1505 Got: 1654
+[05Dec2025 17:13:58.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.spider_pig.ambient Expected: 1506 Got: 1655
+[05Dec2025 17:13:58.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.spider_pig.death Expected: 1507 Got: 1656
+[05Dec2025 17:13:58.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mutantmonsters:entity.spider_pig.hurt Expected: 1508 Got: 1657
+[05Dec2025 17:13:58.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: mutantmonsters:chemical_x Expected: 43 Got: 47
+[05Dec2025 17:13:58.306] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:creeper_minion Expected: 124 Got: 227
+[05Dec2025 17:13:58.306] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:mutant_creeper Expected: 125 Got: 228
+[05Dec2025 17:13:58.306] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:mutant_enderman Expected: 126 Got: 229
+[05Dec2025 17:13:58.307] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:mutant_skeleton Expected: 127 Got: 230
+[05Dec2025 17:13:58.307] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:mutant_snow_golem Expected: 128 Got: 231
+[05Dec2025 17:13:58.307] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:mutant_zombie Expected: 129 Got: 232
+[05Dec2025 17:13:58.307] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:spider_pig Expected: 130 Got: 233
+[05Dec2025 17:13:58.307] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:body_part Expected: 131 Got: 234
+[05Dec2025 17:13:58.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:creeper_minion_egg Expected: 132 Got: 235
+[05Dec2025 17:13:58.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:endersoul_clone Expected: 133 Got: 236
+[05Dec2025 17:13:58.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:endersoul_fragment Expected: 134 Got: 237
+[05Dec2025 17:13:58.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:throwable_block Expected: 135 Got: 238
+[05Dec2025 17:13:58.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:mutant_arrow Expected: 136 Got: 239
+[05Dec2025 17:13:58.308] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mutantmonsters:skull_spirit Expected: 137 Got: 240
+[05Dec2025 17:13:59.061] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
+[05Dec2025 17:13:59.062] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
+[05Dec2025 17:13:59.129] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mutantmonsters:biome_modifications, loading it automatically
+[05Dec2025 17:14:01.713] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[05Dec2025 17:14:01.911] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1537 advancements
+[05Dec2025 17:14:01.915] [main/INFO] [Dungeon Crawl/]: Loading data...
+[05Dec2025 17:14:02.356] [main/INFO] [Dungeon Crawl/]: Done.
+[05Dec2025 17:14:03.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Dec2025 17:14:03.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Dec2025 17:14:03.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Dec2025 17:14:03.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Dec2025 17:14:03.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Dec2025 17:14:03.324] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Dec2025 17:14:03.415] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Dec2025 17:14:03.415] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Dec2025 17:14:03.416] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Dec2025 17:14:03.416] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Dec2025 17:14:03.435] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server01/servidor_minecraft/config/mutantmonsters-server.toml is not correct. Correcting
+[05Dec2025 17:14:03.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key endersoul_hand_teleport_distance was corrected from null to its default, 128. 
+[05Dec2025 17:14:03.437] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mutant_x_conversions was corrected from null to its default, [minecraft:creeper,mutantmonsters:mutant_creeper, minecraft:enderman,mutantmonsters:mutant_enderman, minecraft:skeleton,mutantmonsters:mutant_skeleton, minecraft:snow_golem,mutantmonsters:mutant_snow_golem, minecraft:zombie,mutantmonsters:mutant_zombie, minecraft:pig,mutantmonsters:spider_pig]. 
+[05Dec2025 17:14:03.448] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[05Dec2025 17:14:03.448] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for mutantmonsters
+[05Dec2025 17:14:03.460] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[05Dec2025 17:14:03.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Dec2025 17:14:06.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Dec2025 17:14:13.168] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.169] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.169] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.170] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.170] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.171] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.173] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.174] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.175] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.178] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.182] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.182] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.183] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.184] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2025 17:14:13.548] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[05Dec2025 17:14:14.048] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[05Dec2025 17:14:14.316] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7769 ms
+[05Dec2025 17:14:14.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.885s)! For help, type "help"
+[05Dec2025 17:14:14.356] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Dec2025 17:14:26.716] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [mutantmonsters:1] rejected their client side version number
+[05Dec2025 17:14:26.718] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[05Dec2025 17:14:26.771] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4909f9aa[id=<null>,name=mariesca,properties={},legacy=false] (/127.206.185.177:37677) lost connection: Connection closed - mismatched mod channel list
+[05Dec2025 17:14:30.974] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Daheid[/127.196.140.94:38385] logged in with entity id 140 at (211.20661083025686, 63.0, 466.54233397568885)
+[05Dec2025 17:14:31.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid joined the game
+[05Dec2025 17:14:33.211] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2250ms or 45 ticks behind
+[05Dec2025 17:24:46.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -35.500000, 67.500000, 1253.500000]
+[05Dec2025 17:25:03.793] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mariesca[/127.206.185.177:42473] logged in with entity id 2703 at (-312.2586304751971, 63.0, 375.1189857325117)
+[05Dec2025 17:25:03.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca joined the game
+[05Dec2025 17:25:04.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -92.500000, 120.500000, 1419.500000]
+[05Dec2025 17:25:06.802] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Pig['Pig'/2995, l='ServerLevel[world]', x=-467.03, y=89.00, z=381.22]
+[05Dec2025 17:25:29.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to 38.500000, 68.500000, 555.500000]
+[05Dec2025 17:25:41.939] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daheid moved wrongly!
+[05Dec2025 17:25:50.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was chopped to bits by Skirmisher
+[05Dec2025 17:25:51.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> estas aqui?
+[05Dec2025 17:25:55.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> shi
+[05Dec2025 17:26:06.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> estaba intentando entrar en el castillo
+[05Dec2025 17:26:06.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> que vas hacer?
+[05Dec2025 17:26:16.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> los villager se equipan armaduras
+[05Dec2025 17:26:47.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> duerme
+[05Dec2025 17:26:59.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> ytu donde estas?
+[05Dec2025 17:27:22.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> onde taaaas
+[05Dec2025 17:27:36.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> iba camino a un lugar
+[05Dec2025 17:27:57.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -146.500000, 66.500000, 1576.500000]
+[05Dec2025 17:28:11.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -306.500000, 148.500000, 1591.500000]
+[05Dec2025 17:28:13.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> voy para alla?
+[05Dec2025 17:29:40.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> PARA DONDE AMOR
+[05Dec2025 17:29:55.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was slain by Corpse Fly
+[05Dec2025 17:30:27.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daheid> aloooo
+[05Dec2025 17:30:30.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> para una vaina que vi en el mapa
+[05Dec2025 17:30:34.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> u que haces
+[05Dec2025 17:32:33.304] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[05Dec2025 17:35:11.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca has made the advancement [Safe Haven]
+[05Dec2025 17:36:41.780] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=202, y=47, z=211}
+[05Dec2025 17:41:42.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mariesca> TRAETE LAS CAMAs
+[05Dec2025 17:47:22.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -157.500000, 64.500000, -65.500000]
+[05Dec2025 17:47:45.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -343.500000, 70.500000, -143.500000]
+[05Dec2025 17:47:51.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -507.500000, 72.500000, -183.500000]
+[05Dec2025 17:48:10.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -657.500000, 101.500000, -219.500000]
+[05Dec2025 17:48:17.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -743.500000, 103.500000, -293.500000]
+[05Dec2025 17:48:50.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -946.500000, 63.500000, -372.500000]
+[05Dec2025 17:49:06.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1111.500000, 64.500000, -366.500000]
+[05Dec2025 17:49:15.260] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=217, y=48, z=159}
+[05Dec2025 17:49:17.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1250.500000, 70.500000, -396.500000]
+[05Dec2025 17:49:22.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1256.500000, 72.500000, -470.500000]
+[05Dec2025 17:50:51.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1434.500000, 63.500000, -520.500000]
+[05Dec2025 17:51:37.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1593.500000, 69.500000, -538.500000]
+[05Dec2025 17:51:53.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1572.500000, 64.500000, -671.500000]
+[05Dec2025 17:52:23.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1595.500000, 64.500000, -826.500000]
+[05Dec2025 17:52:26.899] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=217, y=48, z=159}
+[05Dec2025 17:52:59.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1719.500000, 99.500000, -464.500000]
+[05Dec2025 17:53:45.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1750.500000, 68.500000, -886.500000]
+[05Dec2025 17:54:20.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -845.500000, 79.500000, -502.500000]
+[05Dec2025 17:54:30.508] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[05Dec2025 17:54:31.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -833.500000, 109.500000, -538.500000]
+[05Dec2025 17:55:56.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -827.500000, 63.500000, -810.500000]
+[05Dec2025 17:56:06.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -907.500000, 65.500000, -900.500000]
+[05Dec2025 17:56:35.741] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daheid moved too quickly! -9.857773605193984,0.8787031594607981,-2.2586875954054904
+[05Dec2025 18:00:22.077] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/19893, l='ServerLevel[world]', x=-960.53, y=70.00, z=-925.19] died, message: 'Villager was slain by Door Knight'
+[05Dec2025 18:01:08.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Nightmare Stalker
+[05Dec2025 18:01:53.324] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/19841, l='ServerLevel[world]', x=-1013.50, y=69.00, z=-898.67] died, message: 'Villager was slain by Door Knight'
+[05Dec2025 18:02:17.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to 192.500000, 71.500000, 459.500000]
+[05Dec2025 18:02:30.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -139.500000, 64.500000, 554.500000]
+[05Dec2025 18:02:45.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -299.500000, 79.500000, 544.500000]
+[05Dec2025 18:02:56.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -422.500000, 72.500000, 654.500000]
+[05Dec2025 18:03:13.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -266.500000, 122.500000, 439.500000]
+[05Dec2025 18:04:11.018] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/22450, l='ServerLevel[world]', x=-262.63, y=66.94, z=376.85] died, message: 'Villager hit the ground too hard'
+[05Dec2025 18:05:36.171] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daheid lost connection: Disconnected
+[05Dec2025 18:05:36.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid left the game
+[05Dec2025 18:05:36.225] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[05Dec2025 18:05:59.735] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Daheid[/127.196.140.94:52549] logged in with entity id 24699 at (-344.11335545617334, 113.0, 404.9107594459205)
+[05Dec2025 18:05:59.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid joined the game
+[05Dec2025 18:09:46.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid has made the advancement [Safe Haven]
+[05Dec2025 18:10:54.569] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/25807, l='ServerLevel[world]', x=-1064.18, y=103.00, z=7.71] died, message: 'Villager was slain by Vindicator'
+[05Dec2025 18:13:48.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was slain by Nightmare Stalker
+[05Dec2025 18:13:57.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1194.500000, 111.500000, 323.500000]
+[05Dec2025 18:14:09.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Nightmare Stalker
+[05Dec2025 18:14:21.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Nightmare Stalker
+[05Dec2025 18:15:04.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Nightmare Stalker
+[05Dec2025 18:15:30.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid withered away whilst fighting Nightmare Stalker
+[05Dec2025 18:15:46.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daheid: Teleported Daheid to -1267.500000, 91.500000, 363.500000]
+[05Dec2025 18:21:11.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was shot by Skeleton
+[05Dec2025 18:21:20.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid has made the advancement [Suit Up]
+[05Dec2025 18:22:24.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was shot by Skeleton
+[05Dec2025 18:26:13.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid has made the advancement [Super Creeps]
+[05Dec2025 18:26:28.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca has made the advancement [Super Creeps]
+[05Dec2025 18:29:53.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Spider
+[05Dec2025 18:30:14.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mariesca was kicked for floating too long!
+[05Dec2025 18:30:14.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mariesca lost connection: Flying is not enabled on this server
+[05Dec2025 18:30:14.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca left the game
+[05Dec2025 18:30:30.980] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mariesca[/127.206.185.177:44043] logged in with entity id 32463 at (-1797.8583701258983, 97.17675927506424, 33.5924386328813)
+[05Dec2025 18:30:30.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca joined the game
+[05Dec2025 18:32:11.971] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32424, l='ServerLevel[world]', x=-1808.33, y=88.01, z=63.61] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:32:16.829] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/31887, l='ServerLevel[world]', x=-1807.38, y=88.01, z=63.95] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:32:25.021] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32697, l='ServerLevel[world]', x=-1811.25, y=88.01, z=63.64] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:32:28.873] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32358, l='ServerLevel[world]', x=-1810.95, y=88.01, z=63.46] died: Dinnerbone was shot by Daheid
+[05Dec2025 18:33:25.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was shot by Dinnerbone
+[05Dec2025 18:33:33.324] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32696, l='ServerLevel[world]', x=-1810.28, y=88.01, z=65.05] died: Dinnerbone was shot by Daheid
+[05Dec2025 18:35:01.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:35:10.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid withered away whilst fighting Wither Skeleton
+[05Dec2025 18:37:14.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:39:00.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:40:02.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was slain by Wither Skeleton
+[05Dec2025 18:41:01.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:43:18.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was blown up by Creeper
+[05Dec2025 18:43:22.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:43:47.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:43:48.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was slain by Wither Skeleton
+[05Dec2025 18:44:16.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was slain by Wither Skeleton
+[05Dec2025 18:44:26.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:44:46.973] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/33120, l='ServerLevel[world]', x=-1809.56, y=96.01, z=65.18] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:45:02.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was shot by Dinnerbone
+[05Dec2025 18:45:06.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:45:26.670] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32418, l='ServerLevel[world]', x=-1810.75, y=96.01, z=65.96] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:45:29.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was slain by Wither Skeleton
+[05Dec2025 18:45:39.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:50:11.021] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/33079, l='ServerLevel[world]', x=-1810.09, y=96.01, z=63.87] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:50:15.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid was shot by Skeleton
+[05Dec2025 18:50:35.080] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/35280, l='ServerLevel[world]', x=-1810.92, y=96.01, z=62.47] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:50:44.122] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daheid lost connection: Disconnected
+[05Dec2025 18:50:44.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid left the game
+[05Dec2025 18:51:39.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:51:49.386] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/35883, l='ServerLevel[world]', x=-1814.54, y=96.01, z=62.20] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:52:00.571] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32656, l='ServerLevel[world]', x=-1811.53, y=96.01, z=66.63] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:52:55.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/32901, l='ServerLevel[world]', x=-1807.31, y=96.01, z=64.12] died: Dinnerbone was shot by Dinnerbone
+[05Dec2025 18:53:04.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:54:13.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:55:04.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca was slain by Wither Skeleton
+[05Dec2025 18:57:40.720] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mariesca lost connection: Disconnected
+[05Dec2025 18:57:40.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mariesca left the game
+[05Dec2025 18:57:40.804] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[05Dec2025 20:16:59.573] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Daheid[/127.196.140.94:42113] logged in with entity id 38215 at (-1824.5158501420199, 84.0625, 68.0987867226466)
+[05Dec2025 20:16:59.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid joined the game
+[05Dec2025 20:17:27.273] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daheid lost connection: Disconnected
+[05Dec2025 20:17:27.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daheid left the game
